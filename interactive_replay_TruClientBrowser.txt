@@ -1,0 +1,17 @@
+Virtual User Script started at : 2019-10-03 00:08:35
+TruClient Replay (build 1053) for LoadRunner 12.60.0, build 0971. OS: Windows 10, Browser: TruClient Browser 58.0.2.0, initialized on 2019/10/03 at 00:08:35 (1570075715.003s)
+Running Vuser...
+Starting iteration 1.
+t=00003435ms: Step 1: Navigate to "www.google.com" started    [MsgId: MMSG-205180]
+t=00005145ms: Step 1: Navigate to www.google.com successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00005193ms: Step 2: Call Function jQuery.jQueryFunctions started    [MsgId: MMSG-205180]
+t=00005495ms: Step 1: Function jQueryFunctions started    [MsgId: MMSG-205180]
+t=00005656ms: Step 1.1: Evaluate JavaScript code /*! jQuery v3.4.1 | (c) ...uery=C.$=k),k}); started    [MsgId: MMSG-205180]
+t=00005945ms: Step 1.1: Evaluate JavaScript code true successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00005982ms: Step 1: Function jQueryFunctions successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00006118ms: Step 2: Call Function jQuery.jQueryFunctions successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+t=00006147ms: Step 3: Evaluate JavaScript code $("input[name='q']").val...le Search Button started    [MsgId: MMSG-205180]
+t=00006647ms: Step 3: Evaluate JavaScript code [object Object] successfully completed with End Event "Action completed"    [MsgId: MMSG-205180]
+Ending iteration 1.
+Ending Vuser...
+Vuser Terminated.
